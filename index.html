@@ -115,6 +115,23 @@
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.7rem 1.6rem;
+            background: linear-gradient(to right, var(--accent), var(--accent-soft));
+            color: #0f1220;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 999px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        }
     </style>
 </head>
 
@@ -127,6 +144,9 @@
         users leave digital footprints, and intelligence emerges from clicks,
         scrolls, and silent decisions.
     </p>
+    <a href="about.html" class="cta-button">
+        Learn More About WAWI
+    </a>
 </header>
 
 <section>
@@ -220,5 +240,4 @@
 
 </body>
 </html>
-
 
